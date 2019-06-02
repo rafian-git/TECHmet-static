@@ -7,8 +7,7 @@
   <meta charset="utf-8" />
   <title>Contact us : TECHmet</title>
   <meta name="description" content="your TECH demands to be MET" />
-  <meta name="keywords"
-    content="IT , IT solutions , IT farm , Software farm ,Software solutions , TECHmet bd, TECHmet" />
+  <meta name="keywords" content="IT , IT solutions , IT farm , Software farm ,Software solutions , TECHmet bd, TECHmet" />
   <meta name="author" content="TECHmet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <!-- Favicon -->
@@ -48,105 +47,116 @@
 
 
   <!-- Navigation Section -->
-    <section id="navigation" class="shadow">
+  <section id="navigation" class="shadow">
 
-        <div class="inner navigation">
+    <div class="inner navigation">
 
-            <!-- Logo Img -->
-            <div class="logo">
-                <a class="scroll" href="#home"><img src="images/logo.png" alt="Logo" /></a>
-            </div>
+      <!-- Logo Img -->
+      <div class="logo">
+        <a class="scroll" href="#home"><img src="images/logo.png" alt="Logo" /></a>
+      </div>
 
-            <!-- Nav Menu -->
-            <div class="nav-menu">
+      <!-- Nav Menu -->
+      <div class="nav-menu">
 
-                <ul class="nav main-nav">
-                    <li><a class="scroll" href="index.html#home">home</a></li>
-                    <li><a class="scroll" href="index.html#about">services</a></li>
-                    <li><a class="scroll" href="index.html#services">about</a></li>
-                    <li><a class="scroll" href="team.html">team</a></li>
-                    <li class="active"><a class="scroll" href="#">contact</a></li>
+        <ul class="nav main-nav">
+          <li><a class="scroll" href="index.html#home">home</a></li>
+          <li><a class="scroll" href="index.html#about">services</a></li>
+          <li><a class="scroll" href="index.html#services">about</a></li>
+          <li><a class="scroll" href="team.html">team</a></li>
+          <li class="active"><a class="scroll" href="#">contact</a></li>
 
-                </ul>
+        </ul>
 
-            </div>
+      </div>
 
 
-            <!-- Dropdown Menu For Mobile Devices-->
-            <div class="dropdown mobile-drop">
-                <a data-toggle="dropdown" class="mobile-menu" href="#"><i class="fa fa-bars"></i></a>
-                <ul class="nav dropdown-menu fullwidth" role="menu">
-                    <li><a class="scroll" href="index.html#home">home</a></li>
-                    <li><a class="scroll" href="index.html#about">services</a></li>
-                    <li><a class="scroll" href="index.html#services">about us</a></li>
-                    <li><a class="scroll" href="team.html">team</a></li>
-                    <li><a class="scroll" href="#">contact</a></li>
-                </ul>
-            </div>
+      <!-- Dropdown Menu For Mobile Devices-->
+      <div class="dropdown mobile-drop">
+        <a data-toggle="dropdown" class="mobile-menu" href="#"><i class="fa fa-bars"></i></a>
+        <ul class="nav dropdown-menu fullwidth" role="menu">
+          <li><a class="scroll" href="index.html#home">home</a></li>
+          <li><a class="scroll" href="index.html#about">services</a></li>
+          <li><a class="scroll" href="index.html#services">about us</a></li>
+          <li><a class="scroll" href="team.html">team</a></li>
+          <li><a class="scroll" href="#">contact</a></li>
+        </ul>
+      </div>
 
-            <div class="clear"></div>
-        </div>
+      <div class="clear"></div>
+    </div>
 
-    </section>
-    <!-- End Navigation Section -->
+  </section>
+  <!-- End Navigation Section -->
 
-<section id="contact" style="min-height:0px;">
+  <section id="contact" style="min-height:0px;">
     <div class="container">
+      <?php
+      if (isset($_GET["error"])) {
+        echo "<div style='text-align:center' class='alert alert-danger'>
+              <strong>Failed!</strong> Unable to send your message. Please Try Again.
+            </div>";
+      } else if (isset($_GET["success"])) {
+        echo "<div style='text-align:center' class='alert alert-success'>
+              <strong>Thank You!</strong> Your message has been sent.
+            </div>";
+      }
+      ?>
       <h1 style="text-align: center;margin-top:30px"><i class="fa fa-address-card"> </i> Contact Us</h1>
       <div class="row" style="margin-top:40px">
         <div class="col-md-4">
           <div style="text-align: center; font-size: 18px;font-family: 'Roboto Condensed', sans-serif; font-weight:100">
             <ul>
-            <li><i class="fa fa-briefcase"> </i>  <b>Head Office:</b> <br><i class="fa fa-home"> </i>House #229, <i class="fa fa-road"> </i>Road #6,<br> <i class="fa fa-map-marker"> </i> Mohammadi Housing LTD,<br> Dhaka-1207, Bangladesh</li>
-<li><i class="fa fa-envelope"> </i> <a href="mailto:inbox@techmetbd.com"> inbox@techmetbd.com</a></li>
-<br>
-<li><b>Contact Person :</b></li> <br>
-<div class="row" >
-<div class="col-md-6">
-<li  >Jaber Al Rafian</li>
-            <li><i class="fa fa-phone-square">  </i> <a href="tel:+8801307108222"> (+88) 01307108222 </a></li>
-            <li><i class="fa fa-envelope"> </i> <a href="mailto:rafian@techmetbd.com"> rafian@techmetbd.com</a></li>
-        </div>
-        <div class="col-md-6">
-        <li >Rakib Bin Awal</li>
-        <li><i class="fa fa-phone-square"> </i><a href="tel:+8801624666124"> (+88) 01624666124</a> </li>
-<li><i class="fa fa-envelope"> </i> <a href="mailto:rakib@techmetbd.com"> rakib@techmetbd.com</a></li>
-</div>
-</div>
+              <li><i class="fa fa-briefcase"> </i> <b>Head Office:</b> <br><i class="fa fa-home"> </i>House #229, <i class="fa fa-road"> </i>Road #6,<br> <i class="fa fa-map-marker"> </i> Mohammadi Housing LTD,<br> Dhaka-1207, Bangladesh</li>
+              <li><i class="fa fa-envelope"> </i> <a href="mailto:inbox@techmetbd.com"> inbox@techmetbd.com</a></li>
+              <br>
+              <li><b>Contact Person :</b></li> <br>
+              <div class="row">
+                <div class="col-md-6">
+                  <li>Jaber Al Rafian</li>
+                  <li><i class="fa fa-phone-square"> </i> <a href="tel:+8801307108222"> (+88) 01307108222 </a></li>
+                  <li><i class="fa fa-envelope"> </i> <a href="mailto:rafian@techmetbd.com"> rafian@techmetbd.com</a></li>
+                </div>
+                <div class="col-md-6">
+                  <li>Rakib Bin Awal</li>
+                  <li><i class="fa fa-phone-square"> </i><a href="tel:+8801624666124"> (+88) 01624666124</a> </li>
+                  <li><i class="fa fa-envelope"> </i> <a href="mailto:rakib@techmetbd.com"> rakib@techmetbd.com</a></li>
+                </div>
+              </div>
 
-        </ul>
+            </ul>
           </div>
         </div>
-        <div class="col-md-3" >
+        <div class="col-md-3">
           <div style="text-align: center; font-size: 18px;font-family: 'Roboto Condensed', sans-serif; font-weight:100">
             <ul>
-            <li><i class="fa fa-globe"> </i>  <b>Singapore Office:</b> <br>House #229, Road #6,<br>
-                 Mohammadi Housing LTD,<br>
-                  Dhaka-1207, Bangladesh</li>
-                  <li><i class="fa fa-envelope"> </i> <a href="mailto:safkat@techmetbd.com"> safkat@techmetbd.com</a></li>
-            <br>
-            <li><b>Contact Person :</b></li> <br>
-            <li  >Safkat Ullah Khan</li>
-                        <li><i class="fa fa-phone-square">  </i> <a href="tel:+8801307108222"> (+65) 83051810 </a></li>
-                        <li><i class="fa fa-envelope"> </i> <a href="mailto:joga90zim@gmail.com">joga90zim@gmail.com</a></li>
+              <li><i class="fa fa-globe"> </i> <b>Singapore Office:</b> <br>House #229, Road #6,<br>
+                Mohammadi Housing LTD,<br>
+                Dhaka-1207, Bangladesh</li>
+              <li><i class="fa fa-envelope"> </i> <a href="mailto:safkat@techmetbd.com"> safkat@techmetbd.com</a></li>
+              <br>
+              <li><b>Contact Person :</b></li> <br>
+              <li>Safkat Ullah Khan</li>
+              <li><i class="fa fa-phone-square"> </i> <a href="tel:+8801307108222"> (+65) 83051810 </a></li>
+              <li><i class="fa fa-envelope"> </i> <a href="mailto:joga90zim@gmail.com">joga90zim@gmail.com</a></li>
 
           </div>
         </div>
         <div class="col-md-5" style="padding: 10px">
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.6583121387507!2d90.35503341545628!3d23.75956109434209!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755bf06dd3fe0df%3A0x7d872c7f39bf5ac2!2sTECHmet+IT+Solutions!5e0!3m2!1sen!2sbd!4v1558328085036!5m2!1sen!2sbd" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
+      </div>
     </div>
-  </div>
-</section>
+  </section>
 
 
-  <section  style="font-family: 'Roboto Condensed', sans-serif !important;">
+  <section style="font-family: 'Roboto Condensed', sans-serif !important;">
     <div class="container-contact100" style="font-family: 'Roboto Condensed', sans-serif !important;">
 
       <div class="wrap-contact100" style="font-family: 'Roboto Condensed', sans-serif !important;margin-top:40px;padding-top:0px;">
-        <form class="contact100-form validate-form">
-          <span class="contact100-form-title" style="text-align:center;font-family: 'Roboto Condensed', sans-serif !important;" >
-            Get in Touch <i class="fa fa-commenting" ></i>
+        <form class="contact100-form validate-form" action="mail.php" method="POST">
+          <span class="contact100-form-title" style="text-align:center;font-family: 'Roboto Condensed', sans-serif !important;">
+            Get in Touch <i class="fa fa-commenting"></i>
           </span>
 
           <div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate="Name is required">
@@ -155,7 +165,7 @@
             <span class="focus-input100"></span>
           </div>
 
-          <div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+          <div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate="Valid email is required: ex@abc.xyz">
             <span class="label-input100">Your Email</span>
             <input class="input100" type="text" name="email" placeholder="Enter your email addess">
             <span class="focus-input100"></span>
@@ -175,7 +185,7 @@
           </div>
 
 
-          <div class="wrap-input100 validate-input" data-validate = "Message is required">
+          <div class="wrap-input100 validate-input" data-validate="Message is required">
             <span class="label-input100">Message</span>
             <textarea class="input100" name="message" placeholder="Your message here..."></textarea>
             <span class="focus-input100"></span>
@@ -183,7 +193,7 @@
 
           <div class="container-contact100-form-btn" style="text-align:center;">
             <button class="contact100-form-btn" style="text-align:center;">
-              <span  style="text-align:center;">
+              <span style="text-align:center;">
                 Send
                 <i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
               </span>
@@ -214,69 +224,71 @@
   <!-- Footer Section -->
   <section id="footer">
 
-      <div class="inner footer">
+    <div class="inner footer">
 
-          <!-- Phone -->
-          <div class="col-xs-4 animated footer-box" data-animation="flipInY" data-animation-delay="0">
-              <a class="footer-links" href="tel:+8801307108222">
-                  <i class="fa fa-mobile"></i>
-              </a>
+      <!-- Phone -->
+      <div class="col-xs-4 animated footer-box" data-animation="flipInY" data-animation-delay="0">
+        <a class="footer-links" href="tel:+8801307108222">
+          <i class="fa fa-mobile"></i>
+        </a>
 
-              <p class="footer-text">
-                  <a class="" href="tel:+8801307108222">  <span>(+88) 01307108222</span>	</a> <br>
-              <a class="" href="tel:+8801624666124">	<span>(+88) 01624666124</span> 	</a>
-              </p>
-          </div>
+        <p class="footer-text">
+          <a class="" href="tel:+8801307108222"> <span>(+88) 01307108222</span> </a> <br>
+          <a class="" href="tel:+8801624666124"> <span>(+88) 01624666124</span> </a>
+        </p>
+      </div>
 
-          <!-- Socials and Mail -->
-          <div class="col-xs-4 animated footer-box" data-animation="flipInY" data-animation-delay="0">
+      <!-- Socials and Mail -->
+      <div class="col-xs-4 animated footer-box" data-animation="flipInY" data-animation-delay="0">
 
-              <!-- Social 1 -->
-              <a class="footer-links" href="https://fb.me/TECHmetbd" target="_blank">
-                  <i class="fa fa-facebook"></i>
-              </a>
+        <!-- Social 1 -->
+        <a class="footer-links" href="https://fb.me/TECHmetbd" target="_blank">
+          <i class="fa fa-facebook"></i>
+        </a>
 
-              <!-- Social 2 -->
-              <a class="footer-links" href="https://fb.me/TECHmetbd" target="_blank">
-                  <i class="fa fa-twitter"></i>
-              </a>
+        <!-- Social 2 -->
+        <a class="footer-links" href="https://fb.me/TECHmetbd" target="_blank">
+          <i class="fa fa-twitter"></i>
+        </a>
 
-              <!-- Social 3 -->
-              <a class="footer-links" href='mailto:inbox.techmet@gmail.com'>
-                  <i class="fa fa-google-plus" ></i>
-              </a>
+        <!-- Social 3 -->
+        <a class="footer-links" href='mailto:inbox.techmet@gmail.com'>
+          <i class="fa fa-google-plus"></i>
+        </a>
 
-              <!-- Social 4 -->
-              <a class="footer-links" href="https://fb.me/TECHmetbd" target="_blank">
-                  <i class="fa fa-pinterest"></i>
-              </a>
+        <!-- Social 4 -->
+        <a class="footer-links" href="https://fb.me/TECHmetbd" target="_blank">
+          <i class="fa fa-pinterest"></i>
+        </a>
 
-              <!-- Mail -->
-              <p class="footer-text">
-                  <span>Mail</span>:<span><a href="mailto:inbox@techmetbd.com">inbox@techmetbd.com</a></span>
-              </p>
+        <!-- Mail -->
+        <p class="footer-text">
+          <span>Mail</span>:<span><a href="mailto:inbox@techmetbd.com">inbox@techmetbd.com</a></span>
+        </p>
 
-              <!-- Copyright -->
-              <p class="footer-text ">
-                  2018 TECHmet Bangladesh ❍ Your TECH demands to be met
-              </p>
-          </div>
+        <!-- Copyright -->
+        <p class="footer-text ">
+          2018 TECHmet Bangladesh ❍ Your TECH demands to be met
+        </p>
+      </div>
 
-          <!-- Adress -->
-          <div class="col-xs-4 animated footer-box" data-animation="flipInY" data-animation-delay="0">
+      <!-- Adress -->
+      <div class="col-xs-4 animated footer-box" data-animation="flipInY" data-animation-delay="0">
 
-              <!-- Icon -->
-              <a class="footer-links" href="https://goo.gl/maps/AJQicNc5BxZrLmGm9" target="_blank">
-                  <i class="fa fa-map-marker"></i>
-              </a>
+        <!-- Icon -->
+        <a class="footer-links" href="https://goo.gl/maps/AJQicNc5BxZrLmGm9" target="_blank">
+          <i class="fa fa-map-marker"></i>
+        </a>
 
-         <a class="f" href="https://goo.gl/maps/AJQicNc5BxZrLmGm9" target="_blank">	<p class="footer-text">
-                  House #229, Road #6, Mohammadi Housing LTD, Dhaka-1207, Bangladesh
-              </p></a>
-          </div>
+        <a class="f" href="https://goo.gl/maps/AJQicNc5BxZrLmGm9" target="_blank">
+          <p class="footer-text">
+            House #229, Road #6, Mohammadi Housing LTD, Dhaka-1207, Bangladesh
+          </p>
+        </a>
+      </div>
 
-          <div class="clear"></div>
-      </div> <!-- End Footer inner -->
+      <div class="clear"></div>
+    </div> <!-- End Footer inner -->
 
   </section><!-- End Footer Section -->
 
