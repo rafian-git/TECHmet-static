@@ -93,11 +93,11 @@
     <div class="container">
       <?php
       if (isset($_GET["error"])) {
-        echo "<div style='text-align:center' class='alert alert-danger'>
+        echo "<div style='text-align:center; margin-top:20px' class='alert alert-danger'>
               <strong>Failed!</strong> Unable to send your message. Please Try Again.
             </div>";
       } else if (isset($_GET["success"])) {
-        echo "<div style='text-align:center' class='alert alert-success'>
+        echo "<div style='text-align:center; margin-top:20px' class='alert alert-success'>
               <strong>Thank You!</strong> Your message has been sent.
             </div>";
       }
