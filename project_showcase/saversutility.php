@@ -66,10 +66,10 @@
             <div class="nav-menu">
 
                 <ul class="nav main-nav">
-                    <li><a class="scroll" href="index.html#home">home</a></li>
-                    <li><a class="scroll" href="index.html#about">services</a></li>
-                    <li><a class="scroll" href="index.html#services">about</a></li>
-                    <li class="active"><a class="scroll" href="#">team</a></li>
+                    <li><a class="scroll" href="index.php#home">home</a></li>
+                    <li><a class="scroll" href="index.php#about">services</a></li>
+                    <li><a class="scroll" href="index.php#services">about</a></li>
+                    <li ><a class="scroll" href="team.html">team</a></li>
                     <li><a class="scroll" href="contact.php">contact</a></li>
 
                 </ul>
@@ -81,10 +81,10 @@
             <div class="dropdown../ mobile-drop">
                 <a data-toggle="dropdown" class="mobile-menu" href="#"><i class="fa fa-bars"></i></a>
                 <ul class="nav dropdown-menu fullwidth" role="menu">
-                    <li><a class="scroll" href="index.html#home">home</a></li>
-                    <li><a class="scroll" href="index.html#about">services</a></li>
-                    <li><a class="scroll" href="index.html#services">about us</a></li>
-                    <li><a class="scroll" href="#">team</a></li>
+                    <li><a class="scroll" href="index.php#home">home</a></li>
+                    <li><a class="scroll" href="index.php#about">services</a></li>
+                    <li><a class="scroll" href="index.php#services">about us</a></li>
+                    <li><a class="scroll" href="team.html">team</a></li>
                     <li><a class="scroll" href="contact.php">contact</a></li>
                 </ul>
             </div>
@@ -100,8 +100,9 @@
         <div class="container">
             <h2>Project Description</h2>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis eveniet magni modi quae repellendus suscipit. Animi, et expedita ipsa iure molestiae quos tempora voluptatem. A at ex in magnam quia!
+                UK's Leading utility broker- Static Website
             </p>
+            <i class="fa fa-globe"><a href="http://saversutility.co.uk">www.saversutility.co.uk</a> </i>
 
             <!--gallery start-->
             <h3 class="title-4 float-center">Project Demo Images</h3>

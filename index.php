@@ -5,6 +5,17 @@
 <head>
 
     <meta charset="utf-8"/>
+    <meta property="og:url"            content="http://www.techmetbd.com" />
+<meta property="og:type"               content="article" />
+<meta property="og:title"              content="TECHmet IT Solutions" />
+<meta property="og:description"        content="your TECH demands to be MET" />
+<meta property="og:image"              content="/images/logo-big2.png" />
+ <!-- Favicon and Apple Icons-->
+
+<!-- SEO Meta Tags-->
+<meta name="description"  content="your TECH demands to be MET">
+<meta name="keywords"  content="IT , IT solutions , IT farm , Software farm ,Software solutions , TECHmet bd,techmetbd, TECHmet">
+<meta name="author" content="TECHmet">
     <title>TECHmet</title>
     <meta name="description" content="your TECH demands to be MET"/>
     <meta name="keywords"
@@ -446,7 +457,7 @@
         <!--<div class="page-desc">-->
         <!--Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.-->
         <!--</div>-->
-        
+
 
         <div class="works">
 
@@ -470,7 +481,7 @@
                             </div>
                             <div class="work-desc">
                                 <h4>Garment Basket</h4>
-                                <p>Contrary to popular belief, Lorem Ipsum</p>
+                                <p>Bulk selling-buying platform for stocklot traders</p>
                             </div>
                         </div>
                     </a>
@@ -484,7 +495,7 @@
                             </div>
                             <div class="work-desc">
                                 <h4>Bandhu Vhuban</h4>
-                                <p>Contrary to popular belief, Lorem Ipsum</p>
+                                <p>Garments Manufacturing Company website</p>
                             </div>
                         </div>
                     </a>
@@ -498,7 +509,7 @@
                             </div>
                             <div class="work-desc">
                                 <h4>Savers utility</h4>
-                                <p>Contrary to popular belief, Lorem Ipsum</p>
+                                <p>UK's Leading utility broker-Website</p>
                             </div>
                         </div>
                     </a>
@@ -512,7 +523,7 @@
                             </div>
                             <div class="work-desc">
                                 <h4>Unimark</h4>
-                                <p>Contrary to popular belief, Lorem Ipsum</p>
+                                <p>Housing company website</p>
                             </div>
                         </div>
                     </a>
@@ -526,7 +537,7 @@
                             </div>
                             <div class="work-desc">
                                 <h4>Savers utility portal</h4>
-                                <p>Contrary to popular belief, Lorem Ipsum</p>
+                                <p>Utility Broker company management system</p>
                             </div>
                         </div>
                     </a>
