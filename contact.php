@@ -130,9 +130,10 @@
         <div class="col-md-3">
           <div style="text-align: center; font-size: 18px;font-family: 'Roboto Condensed', sans-serif; font-weight:100">
             <ul>
-              <li><i class="fa fa-globe"> </i> <b>Singapore Office:</b> <br>House #229, Road #6,<br>
-                Mohammadi Housing LTD,<br>
-                Dhaka-1207, Bangladesh</li>
+              <li><i class="fa fa-globe"> </i> <b>Singapore Office:</b> <br>792 choa chu kang <br> North 6,
+                  #07-260
+    <br>
+                Singapore 680792</li>
               <li><i class="fa fa-envelope"> </i> <a href="mailto:safkat@techmetbd.com"> safkat@techmetbd.com</a></li>
               <br>
               <li><b>Contact Person :</b></li> <br>
