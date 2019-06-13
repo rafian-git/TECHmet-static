@@ -66,11 +66,11 @@
             <div class="nav-menu">
 
                 <ul class="nav main-nav">
-                    <li><a class="scroll" href="index.php#home">home</a></li>
-                    <li><a class="scroll" href="index.php#about">services</a></li>
-                    <li><a class="scroll" href="index.php#services">about</a></li>
-                    <li ><a class="scroll" href="team.html">team</a></li>
-                    <li><a class="scroll" href="contact.php">contact</a></li>
+                    <li><a class="scroll" href="/index.php#home">home</a></li>
+                    <li><a class="scroll" href="/index.php#about">services</a></li>
+                    <li><a class="scroll" href="/index.php#services">about</a></li>
+                    <li ><a class="scroll" href="/team.html">team</a></li>
+                    <li><a class="scroll" href="/contact.php">contact</a></li>
 
                 </ul>
 
@@ -81,11 +81,11 @@
             <div class="dropdown../ mobile-drop">
                 <a data-toggle="dropdown" class="mobile-menu" href="#"><i class="fa fa-bars"></i></a>
                 <ul class="nav dropdown-menu fullwidth" role="menu">
-                    <li><a class="scroll" href="index.php#home">home</a></li>
-                    <li><a class="scroll" href="index.php#about">services</a></li>
-                    <li><a class="scroll" href="index.php#services">about us</a></li>
-                    <li><a class="scroll" href="team.html">team</a></li>
-                    <li><a class="scroll" href="contact.php">contact</a></li>
+                    <li><a class="scroll" href="/index.php#home">home</a></li>
+                    <li><a class="scroll" href="/index.php#about">services</a></li>
+                    <li><a class="scroll" href="/index.php#services">about us</a></li>
+                    <li><a class="scroll" href="/team.html">team</a></li>
+                    <li><a class="scroll" href="/contact.php">contact</a></li>
                 </ul>
             </div>
 
